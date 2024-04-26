@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <@hardisFo.foRoot xmlns\:fox="http://xmlgraphics.apache.org/fop/extensions">
    <@hardisFo.foLayoutMasterSet>
-    <@hardisFo.foSimplePageMaster masterName="A4_portrait" pageWidth="21cm" pageHeight="29.7cm">
-         <@hardisFo.foRegionBody regionName="PageBody" margin="7mm"/>
-        </@hardisFo.foSimplePageMaster>
+      <@hardisFo.foSimplePageMaster masterName="A4_portrait" pageWidth="21cm" pageHeight="29.7cm">
+         <@hardisFo.foRegionBody regionName="PageBody" margin="7mm" />
+      </@hardisFo.foSimplePageMaster>
    </@hardisFo.foLayoutMasterSet>
    <@hardisFo.foPageSequence masterReference="A4_portrait">
       <@hardisFo.foFlow flowName="PageBody">
-         <@hardisFo.foBlock fontSize="0px">      
+         <@hardisFo.foBlock fontSize="0px">
             PROD
-
          </@hardisFo.foBlock>
       </@hardisFo.foFlow>
    </@hardisFo.foPageSequence>
