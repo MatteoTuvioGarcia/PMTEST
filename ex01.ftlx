@@ -8,17 +8,7 @@
    <@hardisFo.foPageSequence masterReference="A4_portrait">
       <@hardisFo.foFlow flowName="PageBody">
          <@hardisFo.foBlock fontSize="0px">      
-            <#list .data_model.Champs as item>
-
-               <#if item.Font != " ">
-                  <@hardisFo.foInline fontSize="12px" fontFamily = "${item.Font}">${item.Valeur}</@hardisFo.foInline>
-                  <#else>
-                  <@hardisFo.foInline fontSize="12px" >${item.Valeur}</@hardisFo.foInline>
-               </#if> 
-
-           <#else>
-              
-           </#list>
+            PROD
 
          </@hardisFo.foBlock>
       </@hardisFo.foFlow>
